@@ -9,6 +9,8 @@ import Categories from "../components/Categories";
 import Category from "../components/Category";
 import Author from "../components/Author";
 import Profile from "../components/Profile";
+import {ThoughtsForm} from "../features/thoughts/ThoughtsForm";
+
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import "./App.css";
@@ -28,6 +30,7 @@ function App() {
                       <Route path='/category/:name'><Category/></Route>
                       <Route path='/author/:name'><Author /></Route>
                       <Route path='/profile'><Profile /></Route>
+                      <Route path='/add-thought'><ThoughtsForm /></Route>
                   </Switch>
               </main>
               <Footer />

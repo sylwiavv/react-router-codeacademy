@@ -19,6 +19,7 @@ export default function Header () {
       <NavLink to="/about">About</NavLink>
       <NavLink to="/articles">Articles</NavLink>
       <NavLink to="/categories">Categories</NavLink>
+      <NavLink to="/add-thought">Add Thought</NavLink>
       {
         currentUser.username ?
           <>
